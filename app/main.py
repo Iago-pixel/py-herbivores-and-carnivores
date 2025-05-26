@@ -35,5 +35,5 @@ class Carnivore(Animal):
                         animal
                         for animal
                         in Animal.alive
-                        if animal.name != target.name
+                        if animal.name is not target.name
                     ]
